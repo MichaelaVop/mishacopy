@@ -1,0 +1,36 @@
+.footer {
+  background-color: black;
+  color: white;
+  padding: 1.5rem 30px;
+  text-align: center;
+}
+
+.footer #footer-HL {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.footer #footer-line {
+  padding-bottom: 0.8rem;
+}
+
+.social-icons {
+  margin: 0 30px 30px 30px;
+}
+
+#linked-link,
+#gitHub-link {
+  color: white;
+  display: inline;
+}
+
+#linked-link .fab,
+#gitHub-link .fab {
+  font-size: 1.8rem;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+}
+/*# sourceMappingURL=footer.css.map */

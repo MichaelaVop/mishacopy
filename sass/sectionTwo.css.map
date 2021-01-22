@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAEI,MAFE,CAEF,EAAE,CAAC;EACC,gBAAgB,ECJZ,OAAO;EDKX,KAAK,EAAE,KAAK;CACf;;AALL,AAMI,MANE,CAMF,iBAAiB;AANrB,MAAM,CAOF,eAAe,CAAC;EEThB,WAAW,EAAE,yBAAyB;EACtC,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,KAAK,EAAE,OAAO;CFQb;;AATL,AAWI,MAXE,CAWF,eAAe,CAAC;EACZ,OAAO,EAAE,WAAW;EACpB,gBAAgB,EChBX,OAAO;CDiBf;;AAdL,AAgBI,MAhBE,CAgBF,iBAAiB,CAAC;EACd,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;EACnB,gBAAgB,ECrBV,OAAO;EDsBb,KAAK,EAAE,KAAK;EACZ,cAAc,EAAE,SAAS;CAC5B",
+    "sources": [
+        "sectionTwo.scss",
+        "variables.scss",
+        "functions.scss"
+    ],
+    "names": [],
+    "file": "sectionTwo.css"
+}

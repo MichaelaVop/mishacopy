@@ -1,0 +1,33 @@
+.text {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#B77A01), to(#FFF1D6));
+  background-image: linear-gradient(#B77A01, #FFF1D6);
+}
+
+.text h4 {
+  background-color: #B77A01;
+  color: white;
+}
+
+.text p {
+  padding: 0.3rem 30px;
+  margin: 0;
+}
+
+#cupImg {
+  max-width: 100%;
+  background-size: 95vw;
+  background-position: center;
+}
+
+#cupImg .text-one {
+  grid-area: top;
+}
+
+#cupImg .text-one {
+  grid-area: top;
+}
+
+#cupImg .text-one {
+  grid-area: top;
+}
+/*# sourceMappingURL=sectionOne.css.map */

@@ -1,0 +1,26 @@
+.about h4 {
+  background-color: #013c58;
+  color: white;
+}
+
+.about .accordion-header,
+.about .accordion-body {
+  font-family: 'EB Garamond', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.about .accordion-body {
+  padding: 0.3rem 30px;
+  background-color: #EBF8FF;
+}
+
+.about .accordion-button {
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #027DB6;
+  color: white;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=sectionTwo.css.map */

@@ -1,0 +1,28 @@
+@import "variables";
+@import "functions";
+
+.about {
+    
+    h4 {
+        background-color: $blue-dark;
+        color: white;
+    }
+    .accordion-header,
+    .accordion-body {
+        @include myFont;
+    }
+
+    .accordion-body {
+        padding: 0.3rem 30px;
+        background-color: $blue-light;
+    }
+
+    .accordion-button {
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: $blue-middle;
+        color: white;
+        text-transform: uppercase;
+    }
+}
+

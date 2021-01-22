@@ -1,0 +1,38 @@
+.reference_content {
+  padding-bottom: 2rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#B77A01), to(#FFF1D6));
+  background-image: linear-gradient(#B77A01, #FFF1D6);
+}
+
+#reference_HL {
+  padding-top: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+#typeImg {
+  max-width: 100%;
+  background-size: 95vw;
+  background-position: center;
+}
+
+#ritual {
+  max-width: 30vw;
+}
+
+#mediaList,
+#LinkedAka {
+  max-width: 50vw;
+}
+
+.ref-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.4rem;
+}
+/*# sourceMappingURL=sectionThree.css.map */

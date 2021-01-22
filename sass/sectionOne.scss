@@ -1,0 +1,24 @@
+@import "variables";
+@import "functions";
+
+.text {
+    background-image: linear-gradient($yellow-dirt, $yellow-light);
+    h4 {
+        background-color: $yellow-dirt;
+        color: white;
+    }
+    p {
+        padding: 0.3rem 30px;
+        margin: 0;
+    }
+}
+
+#cupImg {
+    max-width: 100%;
+    background-size: 95vw;
+    background-position: center;
+
+    .text-one {grid-area: top;}
+    .text-one {grid-area: top;}
+    .text-one {grid-area: top;}
+}

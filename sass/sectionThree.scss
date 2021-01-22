@@ -1,0 +1,34 @@
+@import "variables";
+@import "functions";
+
+.reference_content {
+    padding-bottom: 2rem;
+    background-image: linear-gradient($yellow-dirt, $yellow-light);
+}
+#reference_HL {
+    padding-top: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+#typeImg {
+    max-width: 100%;
+    background-size: 95vw;
+    background-position: center;
+}
+
+#ritual {
+    max-width: 30vw;
+}
+
+#mediaList,
+#LinkedAka {
+    max-width: 50vw;
+}
+
+.ref-items {
+    display: flex;
+    justify-content: center;
+    padding: 0.4rem;
+}
