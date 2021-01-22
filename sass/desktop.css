@@ -144,5 +144,10 @@
   .footer-text .fab {
     color: white;
   }
+  #linked-link,
+  #gitHub-link {
+    color: white;
+    display: inline;
+  }
 }
 /*# sourceMappingURL=desktop.css.map */

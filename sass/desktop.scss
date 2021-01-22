@@ -126,7 +126,7 @@
     #ritual {
         max-width: 10vw;
     }
-       
+    
     .footer-text {
         div {
             p, a {
@@ -136,6 +136,11 @@
         .fab {
             color: white;
         }
+    }
+    #linked-link, 
+    #gitHub-link {
+        color: white;
+        display: inline;
     }
     
 }

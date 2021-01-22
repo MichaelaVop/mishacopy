@@ -38,3 +38,18 @@ h4 {
     padding: 1rem 30px;
 }
 
+.footer-text {
+    div {
+        p, a {
+            color: white;
+        }
+    }
+    .fab {
+        color: white;
+    }
+}
+#linked-link, 
+#gitHub-link {
+    color: white;
+    display: inline;
+}

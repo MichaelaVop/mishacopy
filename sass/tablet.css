@@ -103,6 +103,10 @@
     -ms-grid-column: 3;
     grid-area: logoThree;
   }
+  #logobox {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
   #reference_HL,
   .ref-items {
     position: relative;
