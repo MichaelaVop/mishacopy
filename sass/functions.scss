@@ -5,6 +5,13 @@
     color: #000000;
 }
 
+@mixin myDesktopFont {
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #000000;
+}
+
 @mixin darkback-whitetext {
     background-color: $blue-dark;
     text-decoration: none;

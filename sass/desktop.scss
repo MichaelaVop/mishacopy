@@ -3,6 +3,9 @@
 
 @media only screen and (min-width: 1024px) {
    
+    * {
+        @include myDesktopFont;
+    }
    body {
        box-sizing: border-box;
        margin-left: 10%;
@@ -10,112 +13,129 @@
        padding: 0;
        align-items: center;
     }
-    a,
-    h4, h1,
-    p,
-    .accordion-body,
-    .accordion-button {
-        margin: 0;
-        padding-left: 50px;
-        padding-right: 50px; 
-    } 
-   
-    .topnav {
-        .myLinks {
-            display: block;
-            flex-direction: column;
-            align-items: flex-start;
-            color: white;
+    h4 {
+        font-size: 1.8rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    header {
+        .navbar {height: 80%;}
+        .hero_content {height: 20%;}
+        .topnav {
+            display: none;
+        }
+        #Misha-hero {
+            display: none;
+            // object-fit: cover;
+        }
+        
+        #logo {
+            width: 35vw;
+        }
+    
+    }
+    .logo {
+        display: inline;
+    }
+
+    .navbar {
+        position: relative;
+        background-color: none;
+    }
+    .navbar::before {
+        content: "";
+        position: absolute;
+        top: 0; 
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('../img/Misha_1920x1080.jpg') $blue-dark;
+        opacity: 0.3;
+        background-position: center;
+        background-size: contain;
+        object-fit: auto;
+    }
+
+    #page-headline {
+            font-size: 3rem;
+            padding: 3rem 50px;
+            margin: 0;
+        }
+        
+    #sub-headline {
+            font-weight: bold;
+            font-style: italic;
+            font-size: 2.5rem;
+            padding: 2rem 50px;
+        }
+    .one {
+        #text_hl,
+        #text_main {
+            padding: 40px 50px;
         }
         
     }
-
-    // .icon {
-    //     visibility: hidden;
-    // }
-
-    .myLinks{
-        ul {
-            width: 70%;
-            flex-direction: column;
-
-            li {
-                text-align: center;
-                a {
-                    padding: .5rem 1rem;
-                }
-            }
+    
+    .typeWrite {
+        display: none;
+        visibility: hidden;
+    }
+    .reference_content {
+        position: relative;
+        background-image: none;
+        #reference_HL {
+            color:$blue-dark;
         }
-     } 
-
-
-    .myLinks:active {
-        display: flex;
+    }
+        
+    .reference_content::before {
+        content: "";
+        position: absolute;
+        top: 0; 
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('/img/Notebook_800x600.jpg') white;
+        background-size: cover;
+        opacity: 0.2;
+    }
+        
+    #reference_HL,
+    .ref-items {
+        position: relative;
+        align-self: center;
     }
 
-    // .two {
-    //     .cup {grid-area: cup;}
-    //     .accBoxHL {grid-area: headline;}
-    //     .accord-box {grid-area: accord;}
-
-    //     display: grid;
-    //     grid-template-columns: 35% 65%;
-    //     grid-template-rows: auto;
-    //     grid-template-areas: 
-    //         "cup headline"
-    //         "cup accord";
-    //     justify-content: center;
-    //     align-content: center;
-    // }
-    // #cupImg {
-    //     display: block;
-    //     min-height: 100%;
-    //     min-width: 100%;
-    //     object-fit: cover;
-    //     object-position: bottom right;
-    // }
-    // .typeWrite {
-    //     display: none;
-    //     visibility: hidden;
-    // }
-   
-    // .reference_content {
-    //     position: relative;
-    //     background-image: none;
-    //     #reference_HL {
-    //         color:$blue-dark;
-    //     }
-    // }
+    #logoBox {
+        #refHL {grid-area: head;}
+        #refOne {grid-area: logoOne;}
+        #refTwo {grid-area: logoTwo;}
+        #refThree {grid-area: logoThree;}
     
-    // .reference_content::before {
-    //     content: "";
-    //     position: absolute;
-    //     top: 0; 
-    //     left: 0;
-    //     width: 100%;
-    //     height: 100%;
-    //     background: url('/img/Notebook_800x600.jpg') white;
-    //     opacity: 0.2;
-    // }
-    // #logoBox {
-    //     #refHL {grid-area: head;}
-    //     #refOne {grid-area: logoOne;}
-    //     #refTwo {grid-area: logoTwo;}
-    //     #refThree {grid-area: logoThree;}
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "head head head"
+            "logoOne logoTwo logoThree";
+        justify-content: center;
+        align-content: center;
+    }
 
-    //     display: grid;
-    //     grid-template-columns: 1fr 1fr 1fr;
-    //     grid-template-rows: auto;
-    //     grid-template-areas: 
-    //         "head head head"
-    //         "logoOne logoTwo logoThree";
-    //     justify-content: center;
-    //     align-content: center;
-
-    // }
-    // #reference_HL,
-    // .ref-items {
-    //     position: relative;
-    //     align-self: center;
-    // }
+    #ritual {
+        max-width: 10vw;
+    }
+       
+    .footer-text {
+        div {
+            p, a {
+                color: white;
+            }
+        }
+        .fab {
+            color: white;
+        }
+    }
+    
 }

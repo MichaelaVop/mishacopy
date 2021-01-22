@@ -13,11 +13,19 @@
     position: relative;
 
     #myLinks {
-        display: block;
+        display: none;
         position: absolute;
         top: 50px;
         right: 0;
         z-index: 1;
+    }
+
+    .icon {
+        background-color: $blue-dark;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
 
     a {
@@ -28,15 +36,9 @@
         display: block;
         border: 1px solid $blue-dark;
 
-        .icon {
-            background-color: $blue-dark;
-            display: block;
-            position: absolute;
-            right: 0;
-            top: 0;
-        }
+       
     } 
-  }
+}
 
 .logo {
     padding-left: 0.5rem;

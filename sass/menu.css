@@ -18,11 +18,19 @@
 }
 
 .topnav #myLinks {
-  display: block;
+  display: none;
   position: absolute;
   top: 50px;
   right: 0;
   z-index: 1;
+}
+
+.topnav .icon {
+  background-color: #013c58;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .topnav a {
@@ -32,14 +40,6 @@
   text-decoration: none;
   display: block;
   border: 1px solid #013c58;
-}
-
-.topnav a .icon {
-  background-color: #013c58;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
 }
 
 .logo {
