@@ -1,0 +1,114 @@
+@media only screen and (min-width: 796px) {
+  a,
+  h4, h1,
+  p,
+  .accordion-body,
+  .accordion-button {
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .two {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 35% 65%;
+        grid-template-columns: 35% 65%;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "cup headline" "cup accord";
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .two .cup {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    grid-area: cup;
+  }
+  .two .accBoxHL {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: headline;
+  }
+  .two .accord-box {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: accord;
+  }
+  #cupImg {
+    display: block;
+    min-height: 100%;
+    min-width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: bottom right;
+       object-position: bottom right;
+  }
+  .typeWrite {
+    display: none;
+    visibility: hidden;
+  }
+  .reference_content {
+    position: relative;
+    background-image: none;
+  }
+  .reference_content #reference_HL {
+    color: #013c58;
+  }
+  .reference_content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("./img/Notebook_800x600.jpg") white;
+    opacity: 0.2;
+  }
+  #logoBox {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "head head head" "logoOne logoTwo logoThree";
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  #logoBox #refHL {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: head;
+  }
+  #logoBox #refOne {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: logoOne;
+  }
+  #logoBox #refTwo {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: logoTwo;
+  }
+  #logoBox #refThree {
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+    grid-area: logoThree;
+  }
+  #reference_HL,
+  .ref-items {
+    position: relative;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+/*# sourceMappingURL=tablet.css.map */

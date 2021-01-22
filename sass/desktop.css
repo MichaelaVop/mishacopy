@@ -1,0 +1,51 @@
+@media only screen and (min-width: 1024px) {
+  body {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  a,
+  h4, h1,
+  p,
+  .accordion-body,
+  .accordion-button {
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .topnav .myLinks {
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    color: white;
+  }
+  .myLinks ul {
+    width: 70%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .myLinks ul li {
+    text-align: center;
+  }
+  .myLinks ul li a {
+    padding: .5rem 1rem;
+  }
+  .myLinks:active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+/*# sourceMappingURL=desktop.css.map */
