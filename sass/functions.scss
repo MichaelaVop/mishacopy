@@ -1,0 +1,13 @@
+@mixin myFont {
+    font-family: 'EB Garamond', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+@mixin darkback-whitetext {
+    background-color: $blue-dark;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}

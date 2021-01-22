@@ -1,0 +1,52 @@
+.navbar {
+  background-color: #013c58;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.topnav {
+  overflow: visible;
+  background-color: #013c58;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  z-index: 1;
+}
+
+.topnav a {
+  color: #013c58;
+  background-color: #EBF8FF;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  display: block;
+  border: 1px solid #013c58;
+}
+
+.topnav a .icon {
+  background-color: #013c58;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.logo {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+/*# sourceMappingURL=menu.css.map */
